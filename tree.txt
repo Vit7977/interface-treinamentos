@@ -1,0 +1,20 @@
+.
+├── README.md
+├── app
+│   ├── AGENTS.md
+│   ├── App.js
+│   ├── CLAUDE.md
+│   ├── LICENSE
+│   ├── app.json
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src
+│       ├── app
+│       ├── core
+│       ├── features
+│       └── shared
+├── spec.md
+└── tree.txt
+
+7 directories, 11 files
