@@ -1,11 +1,19 @@
 .
 ├── README.md
+├── ai.md
 ├── app
 │   ├── AGENTS.md
 │   ├── App.js
 │   ├── CLAUDE.md
 │   ├── LICENSE
 │   ├── app.json
+│   ├── assets
+│   │   ├── android-icon-background.png
+│   │   ├── android-icon-foreground.png
+│   │   ├── android-icon-monochrome.png
+│   │   ├── favicon.png
+│   │   ├── icon.png
+│   │   └── splash-icon.png
 │   ├── index.js
 │   ├── package-lock.json
 │   ├── package.json
@@ -14,7 +22,9 @@
 │       ├── core
 │       ├── features
 │       └── shared
-├── spec.md
+├── docs
+│   └── arquitetura.md
+├── spect.md
 └── tree.txt
 
-7 directories, 11 files
+9 directories, 19 files
