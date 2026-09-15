@@ -1,18 +1,17 @@
-import { StyleSheet, View, Text } from "react-native";
+import React from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { AppProviders } from './src/app/providers/AppProviders';
+import { AppNavigator } from './src/app/navigation/AppNavigator';
 
+/**
+ * Ponto de entrada da aplicação.
+ * Encapsula provedores globais (Tema, Navigation, SafeArea) e o navegador principal.
+ */
 export default function App() {
   return (
-    <View>
-      <Text>OI</Text>
-    </View>
+    <AppProviders>
+      <StatusBar style="auto" />
+      <AppNavigator />
+    </AppProviders>
   );
 }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: "#fff",
-//     alignItems: "center",
-//     justifyContent: "center",
-//   },
-// });
